@@ -1,10 +1,16 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- Readme-->
 **Table of Contents**  
 
 - [Cschat](#cschat)
+    - [Cschat Goal](#cschat-goal)
+    - [Description](#description)
   - [Install](#%E5%AE%89%E8%A3%85)
   - [start](#%E4%BD%BF%E7%94%A8)
+  - [Main focus](#%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD)
+    - [Simple description how to prevent the 3 main threats](#%E7%AE%80%E5%8D%95%E6%8F%8F%E8%BF%B0%E6%80%8E%E4%B9%88%E9%A2%84%E9%98%B2%E4%B8%BB%E8%A6%81%E5%A8%81%E8%83%81)
+        - [XSS attack](#xss%E6%94%BB%E5%87%BB)
+        - [SQL injection](#sql-injection)
+        - [MITM attack](#mitm%E6%94%BB%E5%87%BB)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
