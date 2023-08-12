@@ -35,7 +35,7 @@ The 3 main threats we focused on in this project is XSS attack, SQL injection an
 ### XSS attack
 Our project simply retrieves data from a database and outputs the results in JSON format. In this case, our code is not outputting data directly in an HTML page, so there is no direct risk of an XSS attack.
 ### SQL injection
-Use the mysqli_real_escape_string function to escape input variables to ensure that special characters are handled correctly and to prevent SQL injection attacks. The escaped value is then safely inserted into the SQL query to prevent malicious injection.
+Use the *mysqli_real_escape_string* function to escape input variables to ensure that special characters are handled correctly and to prevent SQL injection attacks. The escaped value is then safely inserted into the SQL query to prevent malicious injection.
 ### MITM attack
 We encrypt the information, and the data is encrypted in transit so that only a legitimate recipient with the correct decryption key can decrypt and read the contents of the data. This means that even if an attacker is able to intercept the communication data, they will not be able to understand its contents because the data is encrypted before transmission. By encrypting communications, sensitive information such as chat logs are not exposed in plaintext during transmission. Attackers, even if they intercept the encrypted data, will not be able to access this sensitive information because they do not have the key needed to decrypt it.
 
