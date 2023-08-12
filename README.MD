@@ -39,9 +39,6 @@ The encryption API is using [wwwtyro/cryptico](https://github.com/wwwtyro/crypti
   - Animation
   - Mobile version compatable
 ## Todo list
-- Basic functions
-  - Sign in
-  - Sign out
 - Account
   - Store/modify detail profiles
   - Multidevice session management
